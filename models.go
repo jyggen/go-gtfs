@@ -88,6 +88,8 @@ type Transfer struct {
 	ToStopID   string `csv:"to_stop_id"`
 	Type       int    `csv:"transfer_type"`
 	MinTime    int    `csv:"min_transfer_time"`
+	FromTripID string `csv:"from_trip_id"`
+	ToTripID   string `csv:"to_trip_id"`
 }
 
 // Agency -
